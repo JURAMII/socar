@@ -1,0 +1,49 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol,ul,li{
+    list-style: none;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+.app_back{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 500px;
+    height: 90px;
+    background-color: #00b8ff;
+    transform: skewX(-30deg) translate3d(200px, 0px, 0);
+    z-index: 9;
+    -webkit-box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+
+}
+.app_btn{
+    width: 500px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+}
+.app_icon{
+    width: 60px; height: 60px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+    position: absolute;
+    bottom: 13px; left: 35%;
+}
+.app_btn p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30px; left: 55%;
+}
+.app_btn span img{
+    width: 20px; height: 20px;
+}
