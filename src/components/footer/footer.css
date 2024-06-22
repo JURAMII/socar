@@ -5,7 +5,7 @@ footer{
     color: #646f7c;
 }
 .footer_wrap{
-    width: 70%;
+    width: 980px;
 }
 .sns_wrap{
     display: flex;
@@ -16,14 +16,11 @@ footer{
     margin-bottom: 10px;
 }
 .cust_list{
+    width: 980px;
     display: flex;
     color: #c5c8ce;
     font-weight: bold;
     padding-bottom: 10px;
-}
-.cust_list li{
-    margin: 0;
-    padding-left: 15px;
 }
 .info{
     display: flex;
